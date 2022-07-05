@@ -28,6 +28,7 @@ ul, li {
 .container {
     width: 1200px;
     margin: 0 auto;
+    word-wrap: break-word;
 }
 
 .header {
@@ -50,6 +51,7 @@ ul, li {
 }
 
 .menu {
+    padding-top: 10px;
     display: flex;
     align-items: center;
 }
@@ -112,4 +114,59 @@ ul, li {
 
 .button2 {
     margin-top: 72px;
+}
+
+.button__icon {
+    text-decoration: none;
+    color: white;
+}
+
+.intro__text {
+    color: black;
+}
+
+.intro {
+    font-family: 'Tinos';
+    font-weight: 400;
+    display: flex;
+}
+
+.intro__icon {
+    margin-bottom: 270px;
+    margin-left: -295px;
+}
+
+.intro__text1 {
+    margin-bottom: 20px;
+    padding: 0px 15px;
+
+    font-size: 26px;
+    margin-top: -200px;
+    color: black;
+}
+
+.intro__text2 {
+    padding: 0px 15px;
+
+    font-size: 26px;
+    display: inline-block;
+    color: #656363;
+}
+
+.intro__text {
+    font-family: 'Tinos';
+    font-weight: 400;
+
+    margin-top: -250px;
+    margin-left: 70px;
+    width: 370px;
+}
+
+.dif-color {
+   color: #BC9060;
+}
+
+.info__intro {
+    margin-top: 138px;
+    display: flex;
 }
