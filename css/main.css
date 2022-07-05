@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap');
 
 html {
     box-sizing: border-box;
@@ -9,9 +9,18 @@ html {
 }
 
 body {
+    font-family: 'Poppins';
+    font-weight: 600;
     margin: 0;
-    font-family: 'Poppins' sans-serif;
-    font-size: 15px;
+    background: #000;
+    color: white;
+}
+
+.header {
+    background: url(/img/road-g9875459d1_1920\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
 }
 
 .container {
@@ -19,60 +28,57 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    background: url(/img/road-g9875459d1_1920\ 1.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.header__wrapper {
-    height: 100px;
+.menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.header__block {
-    width: 20%;
-}
-
-.nav {
-    display: flex;
 }
 
 .nav__link {
     margin-right: 35px;
-
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.nav__link:last-child {
-    margin-right: 0;
-}
-
-.header__lng {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header__lng-link {
-    margin-right: 8px;
-
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    font-weight: 600;
 }
 
-.header__lng-link:last-child {
-    margin-right: 0;
+.logo__img {
+    margin-right: 283px;
 }
 
-.header__lng-link.active {
-    color: gray;
+.lng {
+    margin-left: 279px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #B7B7B7;
+}
+
+.lng:last-child {
+    margin-left: 0;
+}
+
+.lng.active {
+    color: white;
+}
+
+.text-info {
+    margin-top: 153px;
+
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+
+.btn {
+    margin-top: 53px;
+
+    font-size: 18px;
+    font-weight: 500;
+    padding: 11px 48px;
+    background: #DB2512;
+    display: inline-block;
+}
+
+.btn__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
 }
