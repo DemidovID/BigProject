@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins' sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(/img/road-g9875459d1_1920\ 1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header__wrapper {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__block {
+    width: 20%;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    margin-right: 35px;
+
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.header__lng {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__lng-link {
+    margin-right: 8px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.header__lng-link:last-child {
+    margin-right: 0;
+}
+
+.header__lng-link.active {
+    color: gray;
+}
