@@ -13,6 +13,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     color: white;
+    font-weight: 400;
 }
 
 h1 {
@@ -154,11 +155,13 @@ ul, li {
 }
 
 .intro__text {
+    text-align: center;
     font-family: 'Tinos';
     font-weight: 400;
 
-    margin-top: -250px;
-    margin-left: 70px;
+
+    margin-top: -260px;
+    margin-left: 35px;
     width: 370px;
 }
 
@@ -169,4 +172,36 @@ ul, li {
 .info__intro {
     margin-top: 138px;
     display: flex;
+}
+
+.main_cont {
+    margin-left: 166px;
+    text-align: center;
+    width: 444px;
+    height: 217px;
+    margin-top: 166px;
+    color: black;
+}
+
+.text-history {
+    font-size: 16px;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.text-under-history {
+    margin-top: 21px;
+    font-weight: 400;
+    color: #656363;
+}
+
+.food-menu {
+    display: flex;
+}
+
+.n {
+    text-align: center;
+    font-size: 40px;
+    padding: 0 60px;
+
 }
