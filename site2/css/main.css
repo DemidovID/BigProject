@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;700&family=Tinos&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(/img/hero\ image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav_link {
+    margin-right: 30px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_link:last-child {
+    margin-right: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 268px;
+}
+
+.icon-phone {
+    margin-left: 104px;
+}
+
+.phone_num {
+    margin-left: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-icon {
+    margin-left: 45px;
+    font-weight: 700;
+    color: white;
+    padding: 18px 14px;
+    background: #FF7400;
+    text-transform: uppercase;
+}
+
+.cart {
+    margin-left: 40px;
+}
+
+.header__text{
+    margin-top: 229px;
+
+    font-family: 'Tinos';
+    font-weight: 400;
+    color: #D67E35;
+}
+
+.text-head {
+    font-size: 50px;
+}
+
+.text-foot {
+    margin-left: -25px;
+    font-size: 80px;
+}
+
+.header__button2 {
+    margin-left: 150px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 14px 28px;
+    background: #FF7400;
+}
+
+.button2 {
+    margin-top: 72px;
+}
